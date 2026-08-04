@@ -21,12 +21,11 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
 
-      - name: Grant execute permission for gradlew
-        run: chmod +x gradlew
-
-      # 关键：这里强制使用 gradle 8.5 来执行打包，避开新版 Gradle 9 的严苛限制
-      - name: Build Debug APK with Gradle 8.5
-        run: ./gradlew wrapper --gradle-version 8.5 && ./gradlew assembleDebug --stacktrace --no-daemon
+      - name: Generate Gradle Wrapper and Build
+        run: |
+          gradle wrapper --gradle-version 8.5 --distribution-type bin
+          chmod +x gradlew
+          ./gradlew assembleDebug --stacktrace --no-daemon
         env:
           GRADLE_OPTS: "-Xmx4g -XX:MaxMetaspaceSize=1g"
 
