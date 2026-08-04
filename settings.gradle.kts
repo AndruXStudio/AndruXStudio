@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "LuaAppX Pro"
+rootProject.name = "AndruXStudio"
 include(":app")
