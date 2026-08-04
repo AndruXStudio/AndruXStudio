@@ -1,4 +1,3 @@
-
 pluginManagement {
     repositories {
         google()
@@ -14,5 +13,6 @@ dependencyResolutionManagement {
         maven { url = uri("https://jitpack.io") }
     }
 }
+
 rootProject.name = "LuaAppX Pro"
 include(":app")
