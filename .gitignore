@@ -1,0 +1,22 @@
+# Gradle
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+
+# Kotlin
+*.kotlin_module
+
+# APK / AAB
+*.apk
+*.aab
+

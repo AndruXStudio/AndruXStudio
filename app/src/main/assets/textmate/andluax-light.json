@@ -1,0 +1,68 @@
+{
+  "name": "AndLuaX Light",
+  "tokenColors": [
+    {
+      "settings": {
+        "foreground": "#222222"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#8A8A8A"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": [
+        "keyword",
+        "storage"
+      ],
+      "settings": {
+        "foreground": "#5E35B1"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": "string",
+      "settings": {
+        "foreground": "#2E7D32"
+      }
+    },
+    {
+      "name": "Numbers",
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#EF6C00"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": [
+        "entity.name.function",
+        "support.function"
+      ],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#1565C0"
+      }
+    }
+  ],
+  "colors": {
+    "editor.background": "#FFFFFF",
+    "editor.foreground": "#222222",
+    "editorLineNumber.foreground": "#9E9E9E",
+    "editorLineNumber.activeForeground": "#5E35B1",
+    "editorCursor.foreground": "#222222",
+    "editor.selectionBackground": "#DCE8FF",
+    "editor.lineHighlightBackground": "#F5F5F5",
+    "editorWhitespace.foreground": "#C0C0C0"
+  },
+  "semanticHighlighting": true
+}
+

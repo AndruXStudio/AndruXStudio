@@ -1,7 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.LuaAppX" parent="Theme.Material3.Dark.NoActionBar">
-        <item name="colorPrimary">#689F38</item>
-        <item name="colorSecondary">#2196F3</item>
-        <item name="android:windowBackground">#121212</item>
+    <!-- Material3 主题（Compose 内会进一步使用 MaterialTheme） -->
+    <style name="Theme.AndLuaX" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- 可按需在这里定制色彩/字体 -->
     </style>
 </resources>
+
